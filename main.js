@@ -9,7 +9,7 @@ function rndm() {
     var rval4 = Math.floor(Math.random() * tc);
     var rval5 = Math.floor(Math.random() * tc);
     var rval6 = Math.floor(Math.random() * tc);
-    var rval7 = 45;
+    var rval7 = Math.floor(Math.random() * 270);
     elmnts[x].style.background =
       `linear-gradient(` +
       rval7 +
