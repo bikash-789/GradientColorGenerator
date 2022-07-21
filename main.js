@@ -54,6 +54,11 @@ function rndm() {
 
 rndm();
 
+//keypress event listener
+window.addEventListener("keypress", (e) => {
+  if (e.key == " ") rndm();
+});
+
 //add the event listener
 function copyTextEventListener() {
   //target the elmnt to add event listener
