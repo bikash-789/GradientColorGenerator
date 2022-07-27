@@ -1,25 +1,27 @@
-* {
+body {
+  font-size: 62.5%;
   margin: 0;
   padding: 0;
 }
-body {
-  font-size: 62.5%;
-}
 
-.container {
+.containers {
   display: flex;
   height: 100vh;
+  width: 100%;
   flex-wrap: nowrap;
 }
 .btn {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 340px;
   flex-grow: 1;
 }
 
 .btn span {
-  opacity: 0;
+  align-items: center;
+  opacity: 1;
 }
 
 #bg-value {

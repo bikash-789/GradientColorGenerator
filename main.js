@@ -10,45 +10,48 @@ function rndm() {
     var rval5 = Math.floor(Math.random() * tc);
     var rval6 = Math.floor(Math.random() * tc);
     var rval7 = Math.floor(Math.random() * 270);
-    elmnts[x].style.background =
-      `linear-gradient(` +
-      rval7 +
-      "deg," +
-      "rgb(" +
-      rval1 +
-      "," +
-      rval2 +
-      "," +
-      rval3 +
-      ")" +
-      "," +
-      "rgb(" +
-      rval4 +
-      "," +
-      rval5 +
-      "," +
-      rval6 +
-      ")" +
-      ")";
-    elmnts[x].childNodes[0].innerText =
-      `linear-gradient(` +
-      rval7 +
-      "deg," +
-      "rgb(" +
-      rval1 +
-      "," +
-      rval2 +
-      "," +
-      rval3 +
-      ")" +
-      "," +
-      "rgb(" +
-      rval4 +
-      "," +
-      rval5 +
-      "," +
-      rval6 +
-      ")";
+
+    if (x != -1) {
+      elmnts[x].style.background =
+        `linear-gradient(` +
+        rval7 +
+        "deg," +
+        "rgb(" +
+        rval1 +
+        "," +
+        rval2 +
+        "," +
+        rval3 +
+        ")" +
+        "," +
+        "rgb(" +
+        rval4 +
+        "," +
+        rval5 +
+        "," +
+        rval6 +
+        ")" +
+        ")";
+      elmnts[x].childNodes[0].innerText =
+        `linear-gradient(` +
+        rval7 +
+        "deg," +
+        "rgb(" +
+        rval1 +
+        "," +
+        rval2 +
+        "," +
+        rval3 +
+        ")" +
+        "," +
+        "rgb(" +
+        rval4 +
+        "," +
+        rval5 +
+        "," +
+        rval6 +
+        ")";
+    }
   }
 }
 
